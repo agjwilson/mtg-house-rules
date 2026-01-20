@@ -1,0 +1,82 @@
+{
+  "categories": [
+   
+
+   {
+      "id": "power",
+      "title": "Power",
+      "rules": [
+        { "id": "p01", "title": "No Power Nine", "desc": "Power Nine Not Allowed" },
+        { "id": "p02", "title": "No extra turns", "desc": "Prevents long single-player sequences." },
+        { "id": "p04", "title": "No Infinite Combos", "desc": "Loops allowed only if they end naturally." },
+        { "id": "p05", "title": "Commons & Uncommons Only", "desc": "Pauper-like, but casual and flexible." }
+      ]
+    },
+	
+	
+    {
+      "id": "mana",
+      "title": "Mana",
+      "rules": [
+        { "id": "mana01", "title": "One free mulligan", "desc": "After that, use London mulligan rules." },
+        { "id": "mana02", "title": "Start with 1 scry", "desc": "Helps smooth early draws." },
+        { "id": "mana04", "title": "No fast mana rocks (0–1 mana)", "desc": "Avoids explosive starts from cheap artifact ramp." }
+		{ "id": "mana05", "title": "Soft ban on mass land destruction", "desc": "Allowed only if it ends the game quickly." },
+      ]
+    },
+	
+	
+    {
+      "id": "themes",
+      "title": "Themes",
+      "rules": [
+        { "id": "t01", "title": "Universes Beyond", "desc": "Universes Beyond Sets allowed." }
+      ]
+    },
+	
+	
+    {
+      "id": "etiquette",
+      "title": "Etiquette",
+      "rules": [
+        { "id": "e01", "title": "Takebacks Allowed", "desc": "Sporting takebacks, if other opponent agrees." },
+        { "id": "e03", "title": "No Scooping", "desc": "Cannot pickup stack to concede." }
+      ]
+    },
+	
+		  {
+      "id": "construction",
+      "title": "Deck Construction",
+      "rules": [
+        { "id": "dc01", "title": "Highlander", "desc": "60-card decks, singleton (except basics)." },
+		{ "id": "dc02", "title": "Singleton 60", "desc": "60 cards, one copy of each card." },
+		{ "id": "dc03", "title": "Budget cap", "desc": "Agree a max deck value per player." },
+		{ "id": "dc04", "title": "Small Sideboard", "desc": "Sideboard capped at 7 cards." }
+		{ "id": "dc05", "title": "Cap tutors to 3 per deck", "desc": "Reduces repetitive lines." },
+
+      ]
+    }
+	
+			  {
+      "id": "gameplay",
+      "title": "Gameplay",
+      "rules": [
+        { "id": "g01", "title": "Chess clock", "desc": "Speed things up." }
+
+
+      ]
+    }
+	
+	  {
+      "id": "multiplayer",
+      "title": "Multiplayer",
+      "rules": [
+        { "id": "mp01", "title": "Sorcery Concede", "desc": "Concede at sorcery speed (multiplayer). Avoids kingmaking during combat/stack." },
+		 { "id": "mp02", "title": "Adjacent Opponents", "desc": "Attack left/right only. Simplifies play." }
+        
+      ]
+    }
+	
+	
+  ]
+}
