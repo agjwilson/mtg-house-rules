@@ -24,7 +24,7 @@
       "id": "themes",
       "title": "Themes",
       "rules": [
-        { "id": "t01", "title": "Universes Beyond", "desc": "Universes Beyond Sets allowed." }
+        { "id": "t01", "title": "Magic Multiverse", "desc": "No Universes Beyond Sets allowed." }
       ]
     },
     {
