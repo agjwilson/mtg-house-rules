@@ -51,6 +51,7 @@
       "title": "Gameplay",
       "rules": [
         { "id": "g01", "title": "Chess clock", "desc": "Speed things up." }
+		{ "id": "g02", "title": "Order Blocks", "desc": "Old Rules of Block Order." }
       ]
     },
     {
