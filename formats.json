@@ -56,8 +56,8 @@
       "title": "Sealed friendly",
       "intro": "Pull cards from boosters and add to a collection list!",
       "facts": [
-        { "label": "Deck", "value": "40 cards including lands" },
-        { "label": "Sideboard", "value": "Remaining cards from boosters" },
+        { "label": "Deck", "value": "40" },
+        { "label": "Sideboard", "value": "50" },
         { "label": "Number of Players", "value": "2" },
         { "label": "Duration", "value": "20 minutes" }
       ],
@@ -68,6 +68,27 @@
       "details": [
         { "text": "Boosters from a set or block are chosen (usually 6 boosters containing fifteen cards)" },
         { "text": "A couple of days are given for the players to arrange their decks." },
+        { "text": "Games are best of three, and can incorporate house rules if prefered." }
+      ]
+    },
+        {
+      "id": "constructed-expansion",
+      "name": "Constructed expansion",
+      "title": "Constructed expansion",
+      "intro": "Construct a deck from a chosen expansion!",
+      "facts": [
+        { "label": "Deck", "value": "40" },
+        { "label": "Sideboard", "value": "15" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "20 minutes" }
+      ],
+      "link": {
+        "href": "https://www.mtgpics.com/sets",
+        "text": "Where can I find a set?"
+      },
+      "details": [
+        { "text": "Sets that have a small card pool." },
+        { "text": "For focusing on learning about sets with play involved." },
         { "text": "Games are best of three, and can incorporate house rules if prefered." }
       ]
     },
