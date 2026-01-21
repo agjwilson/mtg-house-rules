@@ -1,83 +1,126 @@
 {
-  id: "sealed-friendly",
-  name: "Sealed friendly",
-  body: `
-    <h2>Sealed friendly</h2>
-    <p>Pull cards from boosters and add to a collection list!</p>
-    <ul>
-      <li><strong>Deck:</strong> 40 cards inluding lands</li>
-      <li><strong>Sideboard: Remaining cards from boosters</strong></li>
-      <li><strong>Number of Players:</strong> 2</li>
-      <li><strong>Duration:</strong> 20 minutes</li>
-
-      <a href="https://draftmancer.com/" class="wizards-link" target="_blank">
-        Where can I draft?
-      </a>
-
-      <li>
-        Boosters from a set or block are chosen (usually 6 boosters containing fifteen cards)
-      </li>
-      <li>
-        A couple of days are given for the players to arrange their decks.
-      </li>
-      <li>
-        Games are best of three, and can incorporate house rules if prefered.
-      </li>
-    </ul>
-  `
-},
-
-{
-  id: "pioneer",
-  name: "Pioneer",
-  body: `
-    <h2>Pioneer</h2>
-    <p>Format doesn't rotate. Variety of metagame. Master your favorite deck over time</p>
-    <ul>
-      <li><strong>Deck size:</strong> 60+</li>
-      <li><strong>Sideboard:</strong> 15</li>
-      <li><strong>Number of Players:</strong> 2</li>
-      <li><strong>Duration:</strong> 20 minutes</li>
-
-      <a href="https://magic.wizards.com/en/formats/pioneer" class="wizards-link" target="_blank">
-        What Sets Are Legal?
-      </a>
-
-      <li>Express yourself with innovative deck building!</li>
-      <li>Make your own new strategies for gameplay.</li>
-      <li>Cards do not rotate as new Standard sets are released.</li>
-      <li>
-        This nonrotating format features sets from Return to Ravnica, forward. It aims to be more powerful than Standard but less powerful than Modern or Legacy.
-        Constructed decks can have up to four of any card in their combined deck and sideboard. Basic lands are not included in this restriction.
-      </li>
-    </ul>
-  `
-},
-
-{
-  id: "momir",
-  name: "Momir Basic",
-  body: `
-    <h2>Momir Basic</h2>
-    <p>Every turn is completely unique with randomized Magic creatures to help you win!</p>
-    <ul>
-      <li><strong>Deck:</strong> 60 basic lands</li>
-      <li><strong>1 Momir Vig Simic Visionary Avatar</strong></li>
-      <li><strong>Number of Players:</strong> 2</li>
-      <li><strong>Duration:</strong> 10 minutes</li>
-
-      <a href="https://cubecobra.com/search/?q=momir&order=pop&ascending=false" class="wizards-link" target="_blank">
-        Where can I find this?
-      </a>
-
-      <li>
-        A battle of strategic wits, this format plays with decks of lands (Plains, Island, Swamp, Mountain, Forest) and one single card: Momir Vig
-      </li>
-      <li>
-        Each turn players discard a basic land to Momir Vig and get a random creature from throughout Magic's history!
-      </li>
-      <li>
-        Discover a Magic creature you've never seen before! Players begin the game with with 24 life
-      </li>
-    </ul>
-  `
+  "formats": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "title": "Standard",
+      "intro": "Standard uses cards from the most recently released Magic sets making collecting them for your decks easy!",
+      "facts": [
+        { "label": "Deck size", "value": "60+" },
+        { "label": "Sideboard", "value": "15" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "20 minutes" }
+      ],
+      "link": {
+        "href": "https://magic.wizards.com/en/formats/standard",
+        "text": "What Sets Are Legal?"
+      },
+      "details": [
+        {
+          "text": "Standard games are one-on-one with a 60 card minimum for the main deck (up to 15 card sideboard). Winner is determined either by best of one, or best of three games."
+        },
+        {
+          "title": "How does set rotation work?",
+          "text": "Each year, new Magic sets are released and added to Standard. Once per year, after the fall set Prerelease, the four oldest sets in Standard rotate out."
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "name": "Modern",
+      "title": "Modern",
+      "intro": "Format doesn't rotate. Variety of metagame. Master your favorite deck over time",
+      "facts": [
+        { "label": "Deck size", "value": "60+" },
+        { "label": "Sideboard", "value": "15" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "20 minutes" }
+      ],
+      "link": {
+        "href": "https://magic.wizards.com/en/formats/modern",
+        "text": "What Sets Are Legal?"
+      },
+      "details": [
+        {
+          "text": "These are one-on-one games with 60 card minimums for the main deck (up to 15 card sideboard)."
+        },
+        {
+          "title": "How does set rotation work?",
+          "text": "With the exception of basic lands (Plains, Island, Swamp, Mountain, Forest, and Wastes), your combined deck and sideboard may not contain more than four of any individual card, counted by its English card title equivalent. This format includes powerful cards and strategies from the last two decades of Magic."
+        }
+      ]
+    },
+    {
+      "id": "sealed-friendly",
+      "name": "Sealed friendly",
+      "title": "Sealed friendly",
+      "intro": "Pull cards from boosters and add to a collection list!",
+      "facts": [
+        { "label": "Deck", "value": "40 cards including lands" },
+        { "label": "Sideboard", "value": "Remaining cards from boosters" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "20 minutes" }
+      ],
+      "link": {
+        "href": "https://draftmancer.com/",
+        "text": "Where can I draft?"
+      },
+      "details": [
+        { "text": "Boosters from a set or block are chosen (usually 6 boosters containing fifteen cards)" },
+        { "text": "A couple of days are given for the players to arrange their decks." },
+        { "text": "Games are best of three, and can incorporate house rules if prefered." }
+      ]
+    },
+    {
+      "id": "pioneer",
+      "name": "Pioneer",
+      "title": "Pioneer",
+      "intro": "Format doesn't rotate. Variety of metagame. Master your favorite deck over time",
+      "facts": [
+        { "label": "Deck size", "value": "60+" },
+        { "label": "Sideboard", "value": "15" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "20 minutes" }
+      ],
+      "link": {
+        "href": "https://magic.wizards.com/en/formats/pioneer",
+        "text": "What Sets Are Legal?"
+      },
+      "details": [
+        { "text": "Express yourself with innovative deck building!" },
+        { "text": "Make your own new strategies for gameplay." },
+        { "text": "Cards do not rotate as new Standard sets are released." },
+        {
+          "text": "This nonrotating format features sets from Return to Ravnica, forward. It aims to be more powerful than Standard but less powerful than Modern or Legacy. Constructed decks can have up to four of any card in their combined deck and sideboard. Basic lands are not included in this restriction."
+        }
+      ]
+    },
+    {
+      "id": "momir",
+      "name": "Momir Basic",
+      "title": "Momir Basic",
+      "intro": "Every turn is completely unique with randomized Magic creatures to help you win!",
+      "facts": [
+        { "label": "Deck", "value": "60 basic lands" },
+        { "label": "Avatar", "value": "1 Momir Vig Simic Visionary Avatar" },
+        { "label": "Number of Players", "value": "2" },
+        { "label": "Duration", "value": "10 minutes" }
+      ],
+      "link": {
+        "href": "https://cubecobra.com/search/?q=momir&order=pop&ascending=false",
+        "text": "Where can I find this?"
+      },
+      "details": [
+        {
+          "text": "A battle of strategic wits, this format plays with decks of lands (Plains, Island, Swamp, Mountain, Forest) and one single card: Momir Vig"
+        },
+        {
+          "text": "Each turn players discard a basic land to Momir Vig and get a random creature from throughout Magic's history!"
+        },
+        {
+          "text": "Discover a Magic creature you've never seen before! Players begin the game with with 24 life"
+        }
+      ]
+    }
+  ]
+}
